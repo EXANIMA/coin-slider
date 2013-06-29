@@ -506,23 +506,21 @@
 			}
 		);
 	};
-
-	// default values
 	$.fn.coinslider.defaults = {
-		width: 565, // width of slider panel
-		height: 290, // height of slider panel
-		spw: 7, // squares per width
-		sph: 5, // squares per height
-		delay: 3000, // delay between images in ms
-		sDelay: 30, // delay beetwen squares in ms
-		opacity: 0.7, // opacity of title and navigation
-		titleSpeed: 500, // speed of title appereance in ms
-		effect: '', // random, swirl, rain, straight
-		links : true, // show images as links
-		hoverPause: true, // pause on hover
+		width: 1120,
+		height: 500,
+		spw: 7,
+		sph: 5,
+		delay: 3000,
+		sDelay: 30,
+		opacity: 0.7,
+		titleSpeed: 500,
+		effect: 'random',
+		links : true,
+		hoverPause: true,
 		prevText: 'prev',
 		nextText: 'next',
-		navigation: true, // show/hide prev, next and buttons
+		navigation: true,
 		showNavigationPrevNext: true,
 		showNavigationButtons: true,
 		navigationPrevNextAlwaysShown: false
